@@ -1,4 +1,4 @@
-# Course website
+# Einführung in die grundlegenden Konzepte der Dockerisierung
 
 ## Material
 
@@ -7,23 +7,104 @@
 * Google doc (through mail)
 * [Slack channel](https://slack.com)
 
-## Learning outcomes
+## Willkommen
 
-### General learning outcomes
+Willkommen zu unserem Kurs **Einführung in die grundlegenden Konzepte der Dockerisierung**!
+In diesem Kurs erhältst du eine systematische Einführung in Docker und die Containerisierung von Anwendungen. Schritt für Schritt lernst du die grundlegenden Konzepte sowie praktische Anwendungen kennen, die du direkt in deinen Projekten umsetzen kannst.
 
-After this course, you will be able to:
+Alle wichtigen Informationen und Materialien findest du auf dieser Seite. Sollten während des Kurses Fragen aufkommen, stehe ich dir selbstverständlich zur Verfügung.
 
-### Learning outcomes explained
+Ich freue mich auf eine produktive und erfolgreiche Zusammenarbeit.
 
-To reach the general learning outcomes above, we have set a number of smaller learning outcomes. Each chapter starts with these smaller learning outcomes. Use these at the start of a chapter to get an idea what you will learn. Use them also at the end of a chapter to evaluate whether you have learned what you were expected to learn.
+---
 
-## Learning experiences
+## Kursbeschreibung
 
-To reach the learning outcomes we will use lectures, exercises, polls and group work. During exercises, you are free to discuss with other participants. During lectures, focus on the lecture only.
+In der modernen Softwareentwicklung ist Containerisierung eine grundlegende Technik, um Anwendungen und deren Abhängigkeiten isoliert und konsistent zu verpacken. Docker ist ein führendes Tool, das die Erstellung, Bereitstellung und Verwaltung von Anwendungen durch Container vereinfacht.
+In diesem Kurs lernen Sie die wesentlichen Konzepte und Werkzeuge von Docker kennen. Sie erfahren, wie Sie Docker installieren und konfigurieren, Docker-Images erstellen und verwalten sowie Daten und Netzwerke innerhalb von Containern handhaben. Praktische Übungen und ein kleines Abschlussprojekt vermitteln Ihnen ein fundiertes Verständnis für Docker und seine Anwendung.
+
+---
+
+## Ablauf
+
+Der gesamnte Kurs verteilt sich auf 4 Tage mit jeweils zwei Modulen von 45 Minuten. In jedem Modul werden die Themen durch Arbeitsblätter erlernt und durch praktische Übungen vertieft.
+
+**Tag 1: Einführung in Docker und Container-Basiswissen**
+
+> ***Modul 1: Einführung in Docker und Containerisierung***
+
+> - Grundkonzepte der Containerisierung und Docker.
+> - Unterschiede zwischen Containern und virtuellen Maschinen.
+> - Docker-Architektur und Hauptkomponenten.
+
+<p style="margin-bottom: 5px;">&nbsp;</p>
+
+> ***Modul 2: Docker-Images und Container-Basiswissen***
+
+> - Was sind Docker-Images und Container?
+> - Überblick über Docker-Images und deren Lebenszyklus.
+
+<p style="margin-bottom: 5px;">&nbsp;</p>
+
+**Tag 2: Dockerfiles und Image-Building**
+
+> ***Modul 1: Erstellung und Optimierung von Docker-Images***
+
+> - Einführung in Dockerfiles: Aufbau und grundlegende Befehle (FROM, RUN, COPY, CMD).
+> - Best Practices für das Erstellen von Dockerfiles.
+
+<p style="margin-bottom: 5px;">&nbsp;</p>
+
+**Tag 3: Datenmanagement und Netzwerke**
+
+> ***Modul 1: Docker Volumes und Datenmanagement***
+
+> - Grundkonzepte von Docker Volumes.
+> - Unterschied zwischen Volumes und Bind Mounts.
+
+---
+
+> ***Modul 2: Netzwerke in Docker***
+
+> - Grundlagen von Docker-Netzwerken: Bridge, Host, Overlay.
+> - Verbindung von Containern über Netzwerke.
+
+<p style="margin-bottom: 5px;">&nbsp;</p>
+
+**Tag 4: Docker Compose und Abschlussprojekt**
+
+> ***Modul 1: Docker Compose – Einführung und Anwendung***
+
+> - Was ist Docker Compose und welche Vorteile bietet es.
+> - Struktur und Syntax der docker-compose.yml-Datei.
+
+---
+
+> ***Modul 2: Integration von Docker Compose in das Abschlussprojekt***
+
+> - Integration der gelernten Konzepte in ein praktisches Projekt.
+> - Tipps und Best Practices für die Verwendung von Docker Compose in realen Projekten.
+
+## Lernziele
+
+### allgemeine Lernziele des Kurses
+
+Die Teilnehmer dieses Kurses erlangen ein fundiertes Verständnis der Grundlagen von Docker und der Containerisierung. Sie lernen, Docker selbstständig aufzusetzen, Container sowie Images zu verwalten und Volumes und Netzwerke effektiv zu nutzen. Durch die Anwendung ihres Wissens in einem praktischen Projekt werden sie befähigt, Docker in realen Szenarien einzusetzen. Zudem erhalten sie eine solide Basis für weiterführende Themen, wie die Container-Orchestrierung und das Management komplexer Systeme.
+
+### Lernziele pro Unterrichtseinheit
+
+Um die oben genannten allgemeinen Lernergebnisse zu erreichen, haben wir eine Reihe von kleineren Lernergebnissen festgelegt. Jedes Kapitel beginnt mit diesen kleineren Lernergebnissen. Verwenden Sie diese zu Beginn eines Kapitels, um eine Vorstellung davon zu bekommen, was Sie lernen werden. Nutzen Sie sie auch am Ende eines Kapitels, um zu bewerten, ob Sie das gelernt haben, was Sie lernen sollten.
+
+
+## Wie werden die Lernziele erreicht
+
+Um die Lernergebnisse zu erreichen, werden wir Vorträge, Übungen, Umfragen und Gruppenarbeit einsetzen. Während der Übungen steht es Ihnen frei, mit anderen Teilnehmern zu diskutieren. Konzentrieren Sie sich während der Vorlesungen nur auf die Vorlesung.
 
 ### Exercises
 
-Each block has practical work involved. Some more than others. The practicals are subdivided into chapters, and we'll have a (short) discussion after each chapter. All answers to the practicals are incorporated, but they are hidden. Do the exercise first by yourself, before checking out the answer. If your answer is different from the answer in the practicals, try to figure out why they are different.
+Jeder Block ist mit praktischer Arbeit verbunden. Manche mehr als andere. Die praktischen Arbeiten sind in Kapitel unterteilt, und nach jedem Kapitel gibt es eine (kurze) Diskussion. Alle Antworten zu den praktischen Übungen sind enthalten, aber sie sind versteckt. Machen Sie die Übung zuerst selbst, bevor Sie die Antwort überprüfen. Wenn Ihre Antwort von der Antwort in den Übungsaufgaben abweicht, versuchen Sie herauszufinden, warum sie unterschiedlich ist.
+
+Übersetzt mit DeepL.com (kostenlose Version)
 
 ### Asking questions
 During lectures, you are encouraged to raise your hand if you have questions (if in-person), or use the Zoom functionality (if online). Find the buttons in the participants list ('Participants' button):
